@@ -4,12 +4,12 @@ This file stores very simple functions with the sole purpose of de-bloating the 
 
 import os
 import sys
-import pygame
+from pygame import *
 import getpass as gp
 from datetime import *
 from configparser import *
 
-load = pygame.mixer.music
+load = mixer.music
 
 # Today's Date
 td = date.today()
