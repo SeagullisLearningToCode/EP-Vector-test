@@ -89,7 +89,6 @@ def QuesFromDict(target: dict): # takes the values from the target and qeue
     names = target
     for i in names:
         Que(names, i)
-        #print(names, i)
 
 def load_map(filepath):
     f = open(filepath, "r")
